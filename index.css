@@ -1,0 +1,98 @@
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: relative;
+  height: 64px;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.flago {
+  position: absolute;
+  height: 64px;
+  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+}
+.flagt {
+  position: absolute;
+  height: 64px;
+  right: 0;
+}
+.con {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.logo {
+  height: 46px;
+}
+.aza {
+  height: 52px;
+  margin-left: 30px;
+}
+.emb {
+  height: 58px;
+}
+.header2 {
+  height: 50px;
+  width: 100%;
+  background-color: #234a7d;
+}
+.header2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header2 p {
+  color: white;
+  height: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+.detcon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: url(back.png);
+  height: 550px;
+}
+.tabcon {
+  background-color: white;
+  max-height: 402px;
+  max-width: 648px;
+  padding: 33px;
+  margin-top: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.table1,
+td,
+tr {
+  border: solid 1px grey;
+  border-collapse: collapse;
+  padding: 10px;
+  font-size: 14px;
+  line-gap-override: 5px;
+}
+.h {
+  max-width: 126px;
+}
+.a {
+  max-width: 470px;
+}
+.bcim {
+  position: absolute;
+}
